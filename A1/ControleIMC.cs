@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 {
     [ApiController]
     [Route("api/imc")]
-    public class ControleIMC : ControllerBase
+    public class ControleIMC : ControleIMC
     {
         private static readonly List<IMC> IMCs = new();
 

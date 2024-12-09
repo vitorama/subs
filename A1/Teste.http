@@ -3,7 +3,7 @@ POST http://localhost:5000/api/aluno/cadastrar
 Content-Type: application/json
 
 {
-  "nome": "João da Silva"
+  "nome": "Vitor Marques"
 }
 
 ### Cadastrar IMC
@@ -12,8 +12,8 @@ Content-Type: application/json
 
 {
   "alunoId": 1,
-  "peso": 75,
-  "altura": 1.75
+  "peso": 100,
+  "altura": 1.85
 }
 
 ### Listar IMCs

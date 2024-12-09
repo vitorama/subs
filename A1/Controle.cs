@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 {
     [ApiController]
     [Route("api/aluno")]
-    public class Controle : ControllerBase
+    public class Controle : Controle
     {
         private static readonly List<Aluno> Alunos = new();
 
